@@ -1,13 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Layout from './layout/Layout';
-import { TaskProvider } from './context/TaskContext';
+
+import ProjectProvider from './context/ProjectContext';
+import ProjectManager from './ProjectManager/ProjectManager';
 
 function App() {
   return (
-    <TaskProvider>
-      <Layout />;
-    </TaskProvider>
+    <ProjectProvider>
+      <ProjectManager />
+    </ProjectProvider>
   );
 }
 
