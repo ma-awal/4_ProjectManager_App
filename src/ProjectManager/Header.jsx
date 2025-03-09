@@ -12,7 +12,7 @@ function Header({ onSearch }) {
     <>
       <header className="bg-indigo-950   py-4  ">
         <div className="container flex items-center justify-between">
-          <a className="text-3xl font-bold  text-orange-300 uppercase">
+          <a className="text-3xl font-bold  text-red-500 uppercase">
             Projectify
           </a>
           <div className="basis-1/3">
@@ -26,13 +26,11 @@ function Header({ onSearch }) {
             />
           </div>
           <div className="flex gap-4 items-center justify-end text-white  ">
-            <a href="#" className="text-orange-400 font-base capitalize">
+            <a href="#" className="text-red-500 font-base capitalize">
               Home
             </a>
-            <a className="text-orange-400 font-base capitalize relative ">
-              About
-            </a>
-            <a className="text-orange-400 font-base capitalize relative ">
+            <a className="text-red-500 font-base capitalize relative ">About</a>
+            <a className="text-red-500 font-base capitalize relative ">
               Contact
             </a>
           </div>

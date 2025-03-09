@@ -39,7 +39,7 @@ function ProjectList({ category, openModal, searchTerm }) {
             <SvgSort />
           </button>
         </div>
-        <div className="mb-4 rounded-lg bg-gray-800 p-4">
+        <div className="mb-4 rounded-lg bg-gray-800 p-4  ">
           {filteredTask.length > 0 ? (
             filteredTask.map((task) => {
               return (
